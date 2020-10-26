@@ -3,7 +3,7 @@
     "short_name": "what_to_do",
     "description": "a to do application",
     "start_url": "/index.html",
-    "scope: ".",
+    "scope": ".",
     "orientation": "landscape",
     "dir": "ltr",
     "lang": "en-US",
