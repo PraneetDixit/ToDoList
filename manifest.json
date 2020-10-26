@@ -1,6 +1,12 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "What to do",
+    "short_name": "what_to_do",
+    "description": "a to do application",
+    "start_url": "/index.html",
+    "scope: ".",
+    "orientation": "landscape-primary",
+    "dir: "ltr",
+    "lang": "en-US",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
