@@ -23,22 +23,21 @@
             <button id="add">Add Task</button>
         </div>
         <hr>
-        <div id="todos">
-
-        </div>
-        <script src="script.js"></script>
-        <script>
-            if('serviceWorker' in navigator) {
-                navigator.serviceWorker
-                .register('../sw.js')
-                .then(function() {
-                    console.log("Service Worker registered successfully");
-                })
-                .catch(function() {
-                    console.log("Service worker registration failed")
-                });
-            }
-        </script>
+        <div id="todos"></div>
     </div>
+    <div id="attribution">ToDo list by <a href="https://praneetdixit.me">Praneet Dixit</a></div>
+    <script src="script.js"></script>
+    <script>
+        if('serviceWorker' in navigator) {
+            navigator.serviceWorker
+            .register('../sw.js')
+            .then(function() {
+                console.log("Service Worker registered successfully");
+            })
+            .catch(function() {
+                console.log("Service worker registration failed")
+            });
+        }
+    </script>
 </body>
 </html>

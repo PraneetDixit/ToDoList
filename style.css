@@ -6,6 +6,7 @@
 
 body{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -111,4 +112,10 @@ li:nth-of-type(even){
 
 #todos::-webkit-scrollbar-thumb:hover{
     background: #001629;
+}
+
+#attribution{
+    height: 30px;
+    width: 100%;
+    background-color: #f44336;
 }
