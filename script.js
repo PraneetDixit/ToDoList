@@ -56,4 +56,10 @@ function show() {
 }
 
 document.getElementById("add").addEventListener("click", add);
+document.addEventListener("keypress", function(event){
+    if(event.keyCode == 13){
+        add();
+    }
+});
+
 show();
