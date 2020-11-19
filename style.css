@@ -116,7 +116,11 @@ li:nth-of-type(even){
 }
 
 #attribution{
-    height: 25px;
+    height: 34px;
     width: 100%;
     background-color: #f44336;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
 }
