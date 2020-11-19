@@ -7,7 +7,7 @@
 body{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     height: 100vh;
 }
@@ -95,6 +95,7 @@ li:nth-of-type(even){
 #todos{
     width: 100%;
     overflow-y: auto;
+    flex-grow: 1;
 }
 
 #todos::-webkit-scrollbar{
