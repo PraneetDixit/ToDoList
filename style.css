@@ -2,10 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     font-family: sans-serif;
-}
-
-body *::selection{
-    background-color: #229922;
+    user-select: none;
 }
 
 body{
@@ -129,4 +126,9 @@ li:nth-of-type(even){
     align-items: center;
     padding: 10px;
     color: ghostwhite;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
